@@ -69,3 +69,28 @@ body {
  .hero p {
    font-size: 1.5em;
  }
+
+ .cards {
+   display: flex;
+   justify-content: space-between;
+   margin: 20px 0;
+ }
+ 
+ .card {
+   background-color: #fff;
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   padding: 20px;
+   text-align: center;
+   width: 30%;
+ }
+ 
+ .card h3 {
+   font-size: 1.5em;
+   margin-bottom: 10px;
+ }
+ 
+ .card p {
+   font-size: 1em;
+   color: #666;
+ }
